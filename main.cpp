@@ -378,12 +378,6 @@ int main() {
         char *temp = &(serialString[0]);
         configuration.write(temp,serialString.size());
         cout<<"压缩完成";
-
-        HuffmanTree tree2(serialString, str);
-
-        string ss2 = tree2.getSerializationString(str.substr(str.rfind('.')+1));
-        cout<< ss2.size() << endl << serialString.size()<<endl;
-
         return 0;
 
     }else if(boo == 'U'){
