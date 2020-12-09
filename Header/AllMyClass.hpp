@@ -8,5 +8,6 @@
 #include "HuffmanTree.hpp"
 #include "HuffmanTreeNode.hpp"
 #include "Tools.hpp"
+#include "Service.hpp"
 
 #endif //FINALE_ALLMYCLASS_HPP
