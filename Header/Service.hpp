@@ -49,7 +49,7 @@ void decode(){
     FILE *next = fopen("next.bin", "rb");
 
     if(!compressFile.is_open() || !configuration.is_open() || next == nullptr){
-        cout<<"找不到需要解压的文件，请确认软件根目录下存在 \"compressedFile.txt\" 和\"configuration.txt\"两个文件并确保其文件完整性";
+        cout<<"找不到需要解压的文件，请确认软件根目录下存在 \"compressedFile.txt\" ,\"configuration.txt\" 和\"next.bin\"三个文件并确保其文件完整性";
         return ;
     }
 
